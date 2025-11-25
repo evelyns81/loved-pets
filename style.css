@@ -1,12 +1,9 @@
 body{background-color: #FFF7D9;}
 
-#heading{
-  font-size: 5.5em;
-  color: #f4e2ee;
-  font-family: Send Flowers;
-  font-weight:400;
-  font-style:normal;
-  text-align:center;
-  padding:4px;
-  text-shadow: 1px 1px 2px #85DBE2, 0 0 25px #54a8ec4d, 0 0 5px #E0115F;
+border{
+  border-block-style: solid;
+  border-block-width: thin thick;
+   background-color: #85DBE2;
+  inline-size: 70%;
+  border-block-start-style: solid;
 }
