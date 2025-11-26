@@ -1,9 +1,136 @@
-body{background-color: #FFF7D9;}
-
-h1{
-  border-block-style: solid;
-  border-block-width: thin thick;
-   background-color: #85DBE2;
-  inline-size: 70%;
-  border-block-start-style: solid;
+body {
+    font-family: Arial, sans-serif;
+    background: #FFF7D9;
+    margin: 0;
+    padding: 0;
 }
+
+/* MENU BAR */
+.menu {
+    background: #ddd;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+/* MAIN HEADER */
+.main {
+    text-align: center;
+    padding: 20px;
+}
+
+.main-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* Circles */
+.circles {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.circle {
+    background: #cfcfcf;
+    border-radius: 50%;
+    width: 80px;     /* every circle same size */
+    height: 80px;
+}
+
+/* If you still want a smaller middle circle */
+.circles div:nth-child(2) {
+    width: 60px;
+    height: 60px;
+}
+
+/* Generic box for the right side */
+.main-row > div:nth-child(2) {
+    width: 200px;
+    height: 150px;
+    background: #cfcfcf;
+}
+
+/* About us label */
+.label {
+    font-weight: bold;
+}
+
+/* SECTION BASE */
+.section {
+    padding: 20px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* PET CARDS */
+.pet-card {
+    width: 120px;
+    height: 150px;
+    background: #cfcfcf;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+/* ADOPT SECTION */
+.adopt-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 15px;
+}
+
+.info .line {
+    width: 150px;
+    height: 10px;
+    background: #ccc;
+    margin-bottom: 12px;
+}
+
+.adopt-row > div:nth-child(2) {
+    width: 180px;
+    height: 130px;
+    background: #cfcfcf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 8px 20px;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* CONTACT SECTION */
+.contact-box {
+    width: 300px;
+    height: 150px;
+    background: #cfcfcf;
+    margin: 0 auto;
+}
+
+.icon-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background: #cfcfcf;
+}
+
