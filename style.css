@@ -7,7 +7,7 @@ body {
 
 /* MENU BAR */
 .menu {
-    background: #ddd;
+    background: #85DBE2;
     display: flex;
     justify-content: center;
     gap: 40px;
