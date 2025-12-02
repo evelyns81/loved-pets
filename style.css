@@ -7,14 +7,13 @@ body {
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 20px auto;
     border: 3px solid #555;
     padding: 20px;
     background: white;
 }
 
-/* Navigation tabs */
 .nav {
     display: flex;
     justify-content: space-around;
