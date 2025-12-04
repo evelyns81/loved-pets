@@ -3,10 +3,11 @@ body {
     background: #FFF7D9;
     margin: 0;
     padding: 0;
-
 }
-p {
-  text-align: right;
+
+/* Paragraph alignment class (only applied where needed) */
+.right-text {
+    text-align: right;
 }
 
 .container {
@@ -39,10 +40,18 @@ p {
     background: #ddd;
 }
 
-/* Section styling */
-section {
+/* ---- ABOUT SECTION: side-by-side layout ---- */
+.about-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
     margin: 40px 0;
     padding-top: 30px;
+}
+
+.about-image img {
+    width: 300px;
+    border-radius: 10px;
 }
 
 h2 {
@@ -50,4 +59,7 @@ h2 {
     padding-bottom: 10px;
 }
 
-
+section {
+    margin: 40px 0;
+    padding-top: 30px;
+}
