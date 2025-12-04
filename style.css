@@ -11,7 +11,21 @@ body {
 .right-text {
     text-align: right;
 }
+.adopt-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
 
+.adopt-gallery img {
+    width: 30%;          
+    min-width: 200px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #AF8F71;
+    margin: 10px;        
+}
 .container {
     max-width: 2000px;
     margin: 30px auto;
