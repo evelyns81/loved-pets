@@ -4,8 +4,10 @@ body {
     margin: 0;
     padding: 0;
 }
+.center-title {
+    text-align: center;
+}
 
-/* Paragraph alignment class (only applied where needed) */
 .right-text {
     text-align: right;
 }
